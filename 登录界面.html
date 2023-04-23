@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript">
+			window.onload=function()
+			{
+				var AN=document.getElementById("YUI")
+				var MI=document.getElementById("MIA")
+				var MIN=document.getElementById("ocg")
+				AN.onclick=function()
+				{	
+					if(MIN.value == "九阳" || MIN.value == "胡泽乾")
+					{
+						if(MI.value == "as15112423889" || MI.value == "jb123465789")
+						{
+							document.location.href='精选站点.html'
+						}
+						else 
+						{
+							alert("密码错误")
+						}
+					}
+					else if(MIN.value == "九阳.里" || MIN.value == "胡泽乾.里")
+					{
+						if(MI.value == "159753" || MI.value == "987654321bj")
+						{
+							document.location.href='r18主站点.html'
+						}
+						else
+						{
+							alert("您好像没有去往里世界的门票")
+						}
+					}
+					else if(MIN.value == "9阳")
+					{
+						if(MI.value == "九阳才不是豆浆机")
+						{
+							document.location.href='致谢名单.html'
+						}
+						else if(MI.value == "线索" || MI.value == "线索在哪里" || MI.value == "线索是什么")
+						{
+							alert("不知道，但是九阳讨厌被叫豆浆机")
+						}
+						else if(MI.value == "九阳豆浆机")
+						{
+							alert("九阳才不是豆浆机")
+						}
+						else
+						{
+							alert("还有什么关键的线索没有找到吧？")
+						}
+					}
+					else
+					{
+						alert("没有找到您的存在")
+					}
+				}
+				
+				
+				
+			
+			
+			
+			
+			
+			
+			}
+		</script>
+<!-------------------------------------------------------------------------------------->
+		<style type="text/css">
+			.DIY1{
+				margin-top: 400px;
+				line-height: 20px;
+				text-align: center;
+			}
+			.MIA{
+				margin-bottom: 30px;
+			}
+			#YUI{
+				margin-top: 10px;
+			}
+			.biaoti{
+				color: aqua;
+				font-size: 24px;
+			}
+			body {
+				width: 100%;
+				height: 100%;
+				background: url(图片主资源/背景.jpg) no-repeat;
+			}
+			.DIY1{
+				color: aqua;
+				font-size: 18px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="BEI">
+			<div class="DIY1">
+				<h1 class="biaoti">登录星空壁纸</h1>
+				名字
+				<input id="ocg"/><br /><br />
+				密码
+				<input id="MIA"/><br />
+				<input type="button" id="YUI" value="登录"/>
+			</div>
+		</div>
+	</body>
+</html>
